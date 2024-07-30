@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    color:white;
+    }
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.6)), url('../mount.jpg');
+    background-size: cover;
+    
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items:center ;
+    height:70px;
+}
+h2 span{
+    color: red;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(220, 55, 55);
+    cursor: pointer;
+    color: white;
+    text-transform: capitalize;
+    font-size: 12;
+    
+}
+nav button:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.content{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+h1 span{
+    font-size: 50px;
+    color: red;
+}
+h1{letter-spacing: 12px;
+}
+p{
+    letter-spacing: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
